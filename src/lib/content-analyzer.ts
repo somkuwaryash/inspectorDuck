@@ -1,6 +1,6 @@
 import { HfInference } from '@huggingface/inference';
 
-const inference = new HfInference(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);
+const inference = new HfInference("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");
 
 export async function analyzeContent(text: string) {
   const prompt = `
